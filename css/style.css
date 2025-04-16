@@ -7,7 +7,7 @@
 
 .cointiner {
   width: 100%;
-  min-height: 700vh;
+  min-height: 984vh;
 }
 .cointiner header {
   width: 100%;
@@ -47,7 +47,7 @@
 }
 .cointiner main {
   width: 100%;
-  height: 690vh;
+  height: 890vh;
 }
 .cointiner main .main-anons {
   width: 1200px;
@@ -302,4 +302,148 @@
 }
 .cointiner main .main-center-start .card p {
   color: #BDBDBD;
+}
+.cointiner main .main-center-body {
+  width: 100%;
+  height: 600px;
+  margin-top: 100px;
+}
+.cointiner main .main-center-body .heading {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cointiner main .main-center-body .heading h1 {
+  font-size: 50px;
+}
+.cointiner main .main-center-body .cards {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0px 100px;
+}
+.cointiner main .main-center-body .cards .card {
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.cointiner main .main-center-body .cards .card img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+.cointiner main .main-center-body .cards .card button {
+  width: 150px;
+  height: 50px;
+  font-size: 17px;
+  border: 2px solid #FF7235;
+  color: #FF7235;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.cointiner main .main-end {
+  width: 100%;
+  height: 600px;
+  background-color: #FF7235;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  position: relative;
+  color: #fff;
+  gap: 20px;
+  padding-top: 100px;
+  margin-top: 200px;
+}
+.cointiner main .main-end h1 {
+  font-size: 60px;
+}
+.cointiner main .main-end p {
+  font-size: 30px;
+}
+.cointiner main .main-end button {
+  margin-top: 60px;
+  width: 160px;
+  height: 50px;
+  border-radius: 12px;
+  border: none;
+  letter-spacing: 1.3px;
+  color: #FF7235;
+  cursor: pointer;
+}
+.cointiner main .main-end img {
+  position: absolute;
+  top: 220px;
+}
+.cointiner footer {
+  width: 100%;
+  height: 490px;
+  margin-top: 100px;
+  display: flex;
+  padding: 0px 100px;
+  padding-top: 100px;
+}
+.cointiner footer .logo {
+  width: 200px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.cointiner footer .about {
+  width: 130px;
+  height: 400px;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+.cointiner footer .about p {
+  margin-top: 20px;
+}
+.cointiner footer .about-1 {
+  width: 180px;
+  height: 400px;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+.cointiner footer .about-1 p {
+  margin-top: 20px;
+}
+.cointiner footer .inpuut {
+  width: 380px;
+  height: 240px;
+  margin-left: 170px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  gap: 10px;
+}
+.cointiner footer .inpuut .input-box {
+  width: 100%;
+  height: 60px;
+  border: 1px solid black;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10px;
+}
+.cointiner footer .inpuut .input-box button {
+  background-color: #FF7235;
+  width: 100px;
+  height: 44px;
+  border: none;
+  border-radius: 12px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 19px;
 }/*# sourceMappingURL=style.css.map */
